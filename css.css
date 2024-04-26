@@ -1,0 +1,24 @@
+/* Add your preferred styles here */
+body{
+    margin: 0;
+    margin-left: 47rem;
+    margin-top: 15%;
+    background-color: rgb(0, 0, 0);
+}
+.toggle-button {
+    width: 60px;
+    height: 30px;
+    background-color: #e92222;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.slider {
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
